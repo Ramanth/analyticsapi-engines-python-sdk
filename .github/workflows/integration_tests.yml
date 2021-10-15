@@ -36,7 +36,7 @@ jobs:
           pip install .
       - name: Build and Run Test
         run: |
-          cd Utilities/tests
+          cd tests
           if [ -f requirements.txt ]
           then
             pip install -r requirements.txt
