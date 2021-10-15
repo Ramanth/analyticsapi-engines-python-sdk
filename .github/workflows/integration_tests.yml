@@ -16,7 +16,6 @@ on:
         default: 4.0.0
 
 jobs:
-jobs:
   run-integration-tests-400:
     runs-on: ubuntu-latest
     if: github.event.inputs.Ref == '4.0.0'
